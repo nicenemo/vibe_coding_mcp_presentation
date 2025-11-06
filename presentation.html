@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Hans Kruse">
+  <meta name="dcterms.date" content="2025-11-06">
+  <title>Vibe Coding: Exposing Kali Linux Security Tools via MCP with Spring Boot and Spring AI</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="custom.css"/>
+  
+  <div id="header-left">vibe coding MCP</div>
+  <div id="header-right">Hans Kruse</div>
+  <div id="footer-left"><a href="https://github.com/hanskruse/vibe-coding-mcp">vibe-coding-mcp</a></div>
+  <div id="footer-right">
+    <div class="page-number"></div>
+  </div>
+  <script>
+    Reveal.addEventListener( 'ready', event => {
+      setTimeout(() => {
+        const slideNumber = event.indexh;
+        const totalSlides = Reveal.getTotalSlides() - 1;
+        if (slideNumber > 0) {
+          document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
+        }
+      }, 100);
+    } );
+    Reveal.addEventListener( 'slidechanged', event => {
+      const slideNumber = event.indexh;
+      const totalSlides = Reveal.getTotalSlides() - 1;
+      if (slideNumber > 0) {
+        document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
+      } else {
+        document.querySelector('.page-number').innerHTML = '';
+      }
+    } );
+  </script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Vibe Coding: Exposing Kali Linux Security Tools via
+MCP with Spring Boot and Spring AI</h1>
+  <p class="author">Hans Kruse</p>
+  <p class="date">2025-11-06</p>
+</section>
+
+<section id="introduction" class="slide level1">
+<h1>Introduction</h1>
+<figure>
+<img data-src="./images/1_start_presentation.jpg" alt="Vibe Coding" />
+<figcaption aria-hidden="true">Vibe Coding</figcaption>
+</figure>
+<ul>
+<li>Vibe Coding: A New Paradigm</li>
+<li>Exposing Kali Linux Security Tools</li>
+<li>The Model Context Protocol (MCP)</li>
+<li>Spring Boot and Spring AI</li>
+<li>A Powerful Combination for Security</li>
+<li>Automating Security with AI</li>
+<li>The Future of DevSecOps</li>
+</ul>
+</section>
+<section id="the-zen-of-ai-powered-security" class="slide level1">
+<h1>The Zen of AI-Powered Security</h1>
+<figure>
+<img data-src="./images/2_zen_ai_training_rag_mcp.jpg"
+alt="Zen AI Training" />
+<figcaption aria-hidden="true">Zen AI Training</figcaption>
+</figure>
+<ul>
+<li>Simplicity and Focus in Security</li>
+<li>Training AI for Security Tasks</li>
+<li>Retrieval-Augmented Generation (RAG) for Security</li>
+<li>The Model Context Protocol (MCP) for Security</li>
+<li>A New Paradigm for Security Automation</li>
+<li>The Path to Enlightened Security</li>
+<li>Vibe Coding for Secure by Design</li>
+</ul>
+</section>
+<section id="exposing-kali-linux-tools-via-mcp" class="slide level1">
+<h1>Exposing Kali Linux Tools via MCP</h1>
+<figure>
+<img data-src="./images/3_zen_cgi_bin.jpg" alt="Zen CGI Bin" />
+<figcaption aria-hidden="true">Zen CGI Bin</figcaption>
+</figure>
+<ul>
+<li>The Power of Kali Linux</li>
+<li>The Model Context Protocol (MCP)</li>
+<li>A Simple Interface for Complex Tools</li>
+<li>Vibe Coding with Kali Tools</li>
+<li>Generating Security Scans with AI</li>
+<li>A Minimalist Approach to Security APIs</li>
+<li>The Beauty of a Simple, Focused Design</li>
+</ul>
+</section>
+<section id="spring-boot-and-spring-ai-for-security"
+class="slide level1">
+<h1>Spring Boot and Spring AI for Security</h1>
+<figure>
+<img data-src="./images/4_zen_kali_mcp_spring.jpg"
+alt="Zen Kali MCP Spring" />
+<figcaption aria-hidden="true">Zen Kali MCP Spring</figcaption>
+</figure>
+<ul>
+<li>The Power of Spring Boot</li>
+<li>Spring AI: The Future of AI in Java</li>
+<li>Vibe Coding a Secure Spring Application</li>
+<li>Integrating Kali Tools with Spring</li>
+<li>A Secure and Robust Combination</li>
+<li>Automating Security with Spring AI</li>
+<li>The Future of DevSecOps with Spring</li>
+</ul>
+</section>
+<section id="vibe-coding-in-action" class="slide level1">
+<h1>Vibe Coding in Action</h1>
+<figure>
+<img data-src="./images/5_zen_gemini_mobil_refuse_kali.jpg"
+alt="Zen Gemini Mobil Refuse Kali" />
+<figcaption aria-hidden="true">Zen Gemini Mobil Refuse Kali</figcaption>
+</figure>
+<ul>
+<li>A Live Demo</li>
+<li>Vibe Coding a Security Scan</li>
+<li>Exposing Nmap via MCP</li>
+<li>Using Spring Boot to Create the API</li>
+<li>Using Spring AI to Generate the Code</li>
+<li>A Simple and Powerful Workflow</li>
+<li>The Future of Security Automation</li>
+</ul>
+</section>
+<section id="challenges-and-limitations" class="slide level1">
+<h1>Challenges and Limitations</h1>
+<figure>
+<img data-src="./images/6_vibe_coding_out_of_control.jpg"
+alt="Vibe Coding Out of Control" />
+<figcaption aria-hidden="true">Vibe Coding Out of Control</figcaption>
+</figure>
+<ul>
+<li>The Dangers of AI-Generated Code</li>
+<li>The Need for Human Oversight</li>
+<li>Security and a Large Language Model</li>
+<li>The Hallucination Problem</li>
+<li>Keeping up with the latest security tools</li>
+<li>The Importance of a Good Prompt</li>
+<li>The Future of AI in Security</li>
+</ul>
+</section>
+<section id="best-practices" class="slide level1">
+<h1>Best Practices</h1>
+<figure>
+<img
+data-src="./images/7_vibe_codig_fix_with_example_project_and_better_food_and_pilot_cap.jpg"
+alt="Vibe Coding Fix" />
+<figcaption aria-hidden="true">Vibe Coding Fix</figcaption>
+</figure>
+<ul>
+<li>The Human-AI Partnership</li>
+<li>The Importance of a Good Example Project</li>
+<li>How Better Food Fuels Better Code</li>
+<li>The Pilot’s Cap: A Symbol of Control</li>
+<li>A Case Study: Fixing a Vibe-Coded Project</li>
+<li>The Importance of Testing</li>
+<li>Achieving Vibe Coding Nirvana</li>
+</ul>
+</section>
+<section id="conclusion" class="slide level1">
+<h1>Conclusion</h1>
+<figure>
+<img data-src="./images/8_zen_enjoy_kaiseki_cuisine.jpg"
+alt="Zen Enjoy Kaiseki Cuisine" />
+<figcaption aria-hidden="true">Zen Enjoy Kaiseki Cuisine</figcaption>
+</figure>
+<ul>
+<li>The Future of AI-Powered Security</li>
+<li>Vibe Coding: A Powerful Tool for DevSecOps</li>
+<li>The Model Context Protocol: A New Standard</li>
+<li>Spring Boot and Spring AI: A Winning Combination</li>
+<li>The Importance of Human Oversight</li>
+<li>The Art of Vibe Coding</li>
+<li>Questions and Answers</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
