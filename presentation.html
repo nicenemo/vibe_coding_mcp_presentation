@@ -9,8 +9,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <link rel="stylesheet" href="./reveal.js-4.6.1/dist/reset.css">
+  <link rel="stylesheet" href="./reveal.js-4.6.1/dist/reveal.css">
   <style>
     .reveal .sourceCode {  /* see #7635 */
       overflow: visible;
@@ -31,35 +31,13 @@
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
-  <link rel="stylesheet" href="custom.css"/>
-  
+  <link rel="stylesheet" href="./reveal.js-4.6.1/dist/theme/black.css" id="theme">
   <div id="header-left">vibe coding MCP</div>
   <div id="header-right">Hans Kruse</div>
   <div id="footer-left"><a href="https://github.com/hanskruse/vibe-coding-mcp">vibe-coding-mcp</a></div>
   <div id="footer-right">
     <div class="page-number"></div>
   </div>
-  <script>
-    Reveal.addEventListener( 'ready', event => {
-      setTimeout(() => {
-        const slideNumber = event.indexh;
-        const totalSlides = Reveal.getTotalSlides() - 1;
-        if (slideNumber > 0) {
-          document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
-        }
-      }, 100);
-    } );
-    Reveal.addEventListener( 'slidechanged', event => {
-      const slideNumber = event.indexh;
-      const totalSlides = Reveal.getTotalSlides() - 1;
-      if (slideNumber > 0) {
-        document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
-      } else {
-        document.querySelector('.page-number').innerHTML = '';
-      }
-    } );
-  </script>
 </head>
 <body>
   <div class="reveal">
@@ -74,10 +52,8 @@ MCP with Spring Boot and Spring AI</h1>
 
 <section id="introduction" class="slide level1">
 <h1>Introduction</h1>
-<figure>
-<img data-src="./images/1_start_presentation.jpg" alt="Vibe Coding" />
-<figcaption aria-hidden="true">Vibe Coding</figcaption>
-</figure>
+<div class="two-column-layout">
+<div class="left-column">
 <ul>
 <li>Vibe Coding: A New Paradigm</li>
 <li>Exposing Kali Linux Security Tools</li>
@@ -87,14 +63,17 @@ MCP with Spring Boot and Spring AI</h1>
 <li>Automating Security with AI</li>
 <li>The Future of DevSecOps</li>
 </ul>
+</div>
+<div class="right-column"
+data-image="./images/1_start_presentation.jpg">
+
+</div>
+</div>
 </section>
 <section id="the-zen-of-ai-powered-security" class="slide level1">
 <h1>The Zen of AI-Powered Security</h1>
-<figure>
-<img data-src="./images/2_zen_ai_training_rag_mcp.jpg"
-alt="Zen AI Training" />
-<figcaption aria-hidden="true">Zen AI Training</figcaption>
-</figure>
+<div class="two-column-layout">
+<div class="left-column">
 <ul>
 <li>Simplicity and Focus in Security</li>
 <li>Training AI for Security Tasks</li>
@@ -104,13 +83,17 @@ alt="Zen AI Training" />
 <li>The Path to Enlightened Security</li>
 <li>Vibe Coding for Secure by Design</li>
 </ul>
+</div>
+<div class="right-column"
+data-image="./images/2_zen_ai_training_rag_mcp.jpg">
+
+</div>
+</div>
 </section>
 <section id="exposing-kali-linux-tools-via-mcp" class="slide level1">
 <h1>Exposing Kali Linux Tools via MCP</h1>
-<figure>
-<img data-src="./images/3_zen_cgi_bin.jpg" alt="Zen CGI Bin" />
-<figcaption aria-hidden="true">Zen CGI Bin</figcaption>
-</figure>
+<div class="two-column-layout">
+<div class="left-column">
 <ul>
 <li>The Power of Kali Linux</li>
 <li>The Model Context Protocol (MCP)</li>
@@ -120,15 +103,17 @@ alt="Zen AI Training" />
 <li>A Minimalist Approach to Security APIs</li>
 <li>The Beauty of a Simple, Focused Design</li>
 </ul>
+</div>
+<div class="right-column" data-image="./images/3_zen_cgi_bin.jpg">
+
+</div>
+</div>
 </section>
 <section id="spring-boot-and-spring-ai-for-security"
 class="slide level1">
 <h1>Spring Boot and Spring AI for Security</h1>
-<figure>
-<img data-src="./images/4_zen_kali_mcp_spring.jpg"
-alt="Zen Kali MCP Spring" />
-<figcaption aria-hidden="true">Zen Kali MCP Spring</figcaption>
-</figure>
+<div class="two-column-layout">
+<div class="left-column">
 <ul>
 <li>The Power of Spring Boot</li>
 <li>Spring AI: The Future of AI in Java</li>
@@ -138,14 +123,17 @@ alt="Zen Kali MCP Spring" />
 <li>Automating Security with Spring AI</li>
 <li>The Future of DevSecOps with Spring</li>
 </ul>
+</div>
+<div class="right-column"
+data-image="./images/4_zen_kali_mcp_spring.jpg">
+
+</div>
+</div>
 </section>
 <section id="vibe-coding-in-action" class="slide level1">
 <h1>Vibe Coding in Action</h1>
-<figure>
-<img data-src="./images/5_zen_gemini_mobil_refuse_kali.jpg"
-alt="Zen Gemini Mobil Refuse Kali" />
-<figcaption aria-hidden="true">Zen Gemini Mobil Refuse Kali</figcaption>
-</figure>
+<div class="two-column-layout">
+<div class="left-column">
 <ul>
 <li>A Live Demo</li>
 <li>Vibe Coding a Security Scan</li>
@@ -155,14 +143,17 @@ alt="Zen Gemini Mobil Refuse Kali" />
 <li>A Simple and Powerful Workflow</li>
 <li>The Future of Security Automation</li>
 </ul>
+</div>
+<div class="right-column"
+data-image="./images/5_zen_gemini_mobil_refuse_kali.jpg">
+
+</div>
+</div>
 </section>
 <section id="challenges-and-limitations" class="slide level1">
 <h1>Challenges and Limitations</h1>
-<figure>
-<img data-src="./images/6_vibe_coding_out_of_control.jpg"
-alt="Vibe Coding Out of Control" />
-<figcaption aria-hidden="true">Vibe Coding Out of Control</figcaption>
-</figure>
+<div class="two-column-layout">
+<div class="left-column">
 <ul>
 <li>The Dangers of AI-Generated Code</li>
 <li>The Need for Human Oversight</li>
@@ -172,15 +163,17 @@ alt="Vibe Coding Out of Control" />
 <li>The Importance of a Good Prompt</li>
 <li>The Future of AI in Security</li>
 </ul>
+</div>
+<div class="right-column"
+data-image="./images/6_vibe_coding_out_of_control.jpg">
+
+</div>
+</div>
 </section>
 <section id="best-practices" class="slide level1">
 <h1>Best Practices</h1>
-<figure>
-<img
-data-src="./images/7_vibe_codig_fix_with_example_project_and_better_food_and_pilot_cap.jpg"
-alt="Vibe Coding Fix" />
-<figcaption aria-hidden="true">Vibe Coding Fix</figcaption>
-</figure>
+<div class="two-column-layout">
+<div class="left-column">
 <ul>
 <li>The Human-AI Partnership</li>
 <li>The Importance of a Good Example Project</li>
@@ -190,14 +183,17 @@ alt="Vibe Coding Fix" />
 <li>The Importance of Testing</li>
 <li>Achieving Vibe Coding Nirvana</li>
 </ul>
+</div>
+<div class="right-column"
+data-image="./images/7_vibe_codig_fix_with_example_project_and_better_food_and_pilot_cap.jpg">
+
+</div>
+</div>
 </section>
 <section id="conclusion" class="slide level1">
 <h1>Conclusion</h1>
-<figure>
-<img data-src="./images/8_zen_enjoy_kaiseki_cuisine.jpg"
-alt="Zen Enjoy Kaiseki Cuisine" />
-<figcaption aria-hidden="true">Zen Enjoy Kaiseki Cuisine</figcaption>
-</figure>
+<div class="two-column-layout">
+<div class="left-column">
 <ul>
 <li>The Future of AI-Powered Security</li>
 <li>Vibe Coding: A Powerful Tool for DevSecOps</li>
@@ -207,16 +203,22 @@ alt="Zen Enjoy Kaiseki Cuisine" />
 <li>The Art of Vibe Coding</li>
 <li>Questions and Answers</li>
 </ul>
+</div>
+<div class="right-column"
+data-image="./images/8_zen_enjoy_kaiseki_cuisine.jpg">
+
+</div>
+</div>
 </section>
     </div>
   </div>
 
-  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+  <script src="./reveal.js-4.6.1/dist/reveal.js"></script>
 
   <!-- reveal.js plugins -->
-  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="./reveal.js-4.6.1/plugin/notes/notes.js"></script>
+  <script src="./reveal.js-4.6.1/plugin/search/search.js"></script>
+  <script src="./reveal.js-4.6.1/plugin/zoom/zoom.js"></script>
 
   <script>
 
@@ -369,6 +371,40 @@ alt="Zen Enjoy Kaiseki Cuisine" />
           RevealSearch,
           RevealZoom
         ]
+      });
+    </script>
+    <script>
+      Reveal.addEventListener( 'ready', event => {
+        setTimeout(() => {
+          const slideNumber = event.indexh;
+          const totalSlides = Reveal.getTotalSlides() - 1;
+          if (slideNumber > 0) {
+            document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
+          }
+        }, 100);
+      } );
+      Reveal.addEventListener( 'slidechanged', event => {
+        const slideNumber = event.indexh;
+        const totalSlides = Reveal.getTotalSlides() - 1;
+        if (slideNumber > 0) {
+          document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
+        } else {
+          document.querySelector('.page-number').innerHTML = '';
+        }
+      } );
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        Reveal.addEventListener('ready', function(event) {
+          // event.currentSlide, event.indexh, event.indexv
+          var rightColumns = document.querySelectorAll('.right-column');
+          rightColumns.forEach(function(element) {
+            var image = element.getAttribute('data-image');
+            if (image) {
+              element.style.backgroundImage = 'url(' + image + ')';
+            }
+          });
+        });
       });
     </script>
     </body>

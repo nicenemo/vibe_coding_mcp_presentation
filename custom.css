@@ -1,4 +1,3 @@
-
 .reveal .slides {
     border: 1px solid red;
     text-align: center;
@@ -45,4 +44,20 @@
 .reveal {
     background-color: #1e1e1e;
     color: #fff;
+}
+
+.two-column-layout {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.right-column {
+    flex: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }

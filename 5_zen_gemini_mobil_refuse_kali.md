@@ -1,6 +1,7 @@
 # Vibe Coding in Action
 
-![Zen Gemini Mobil Refuse Kali](./images/5_zen_gemini_mobil_refuse_kali.jpg)
+<div class="two-column-layout">
+<div class="left-column">
 
 * A Live Demo
 * Vibe Coding a Security Scan
@@ -9,3 +10,8 @@
 * Using Spring AI to Generate the Code
 * A Simple and Powerful Workflow
 * The Future of Security Automation
+
+</div>
+<div class="right-column" data-image="./images/5_zen_gemini_mobil_refuse_kali.jpg">
+</div>
+</div>

@@ -1,27 +1,6 @@
-
 <div id="header-left">vibe coding MCP</div>
 <div id="header-right">Hans Kruse</div>
 <div id="footer-left"><a href="https://github.com/hanskruse/vibe-coding-mcp">vibe-coding-mcp</a></div>
 <div id="footer-right">
   <div class="page-number"></div>
 </div>
-<script>
-  Reveal.addEventListener( 'ready', event => {
-    setTimeout(() => {
-      const slideNumber = event.indexh;
-      const totalSlides = Reveal.getTotalSlides() - 1;
-      if (slideNumber > 0) {
-        document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
-      }
-    }, 100);
-  } );
-  Reveal.addEventListener( 'slidechanged', event => {
-    const slideNumber = event.indexh;
-    const totalSlides = Reveal.getTotalSlides() - 1;
-    if (slideNumber > 0) {
-      document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
-    } else {
-      document.querySelector('.page-number').innerHTML = '';
-    }
-  } );
-</script>

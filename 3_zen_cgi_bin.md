@@ -1,6 +1,7 @@
 # Exposing Kali Linux Tools via MCP
 
-![Zen CGI Bin](./images/3_zen_cgi_bin.jpg)
+<div class="two-column-layout">
+<div class="left-column">
 
 * The Power of Kali Linux
 * The Model Context Protocol (MCP)
@@ -9,3 +10,8 @@
 * Generating Security Scans with AI
 * A Minimalist Approach to Security APIs
 * The Beauty of a Simple, Focused Design
+
+</div>
+<div class="right-column" data-image="./images/3_zen_cgi_bin.jpg">
+</div>
+</div>
