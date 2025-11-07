@@ -1,5 +1,5 @@
 ---
-title: "Vibe Coding: Exposing Kali Linux Security Tools via MCP with Spring Boot and Spring AI"
+title: "Vibe Coding MCP<br>Kali Linux"
 author: Hans Kruse
 date: 2025-11-06
 ---

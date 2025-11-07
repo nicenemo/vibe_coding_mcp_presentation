@@ -1,63 +1,61 @@
-.reveal .slides {
-    border: 1px solid red;
-    text-align: center;
+/* Custom CSS for Vibe Coding MCP Presentation */
+
+/* Header and Footer */
+#header-left, #header-right, #footer-left, #footer-right {
+  position: absolute;
+  z-index: 10;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
 }
 
 #header-left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    font-size: 1.2em;
-    font-weight: bold;
+  top: 0;
+  left: 0;
 }
 
 #header-right {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 10px;
-    font-size: 1.2em;
-    font-weight: bold;
+  top: 0;
+  right: 0;
 }
 
 #footer-left {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-    font-size: 0.8em;
+  bottom: 0;
+  left: 0;
 }
 
 #footer-right {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
-    font-size: 0.8em;
+  bottom: 0;
+  right: 0;
 }
 
-.page-number::before {
-    content: counter(slide);
+/* Font sizes */
+.reveal h1 {
+  font-size: 2.5em;
 }
 
-.reveal {
-    background-color: #1e1e1e;
-    color: #fff;
+.reveal h2 {
+  font-size: 1.8em;
 }
 
+.reveal p, .reveal li {
+  font-size: 1.2em;
+}
+
+/* Two-column layout */
 .two-column-layout {
-    display: flex;
+  display: table;
+  width: 100%;
 }
 
-.left-column {
-    flex: 1;
-    padding-right: 20px;
+.left-column, .right-column {
+  display: table-cell;
+  width: 50%;
+  vertical-align: top;
 }
 
 .right-column {
-    flex: 1;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
