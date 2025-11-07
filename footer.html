@@ -6,6 +6,8 @@
       if (slideNumber > 0) {
         document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
       }
+      // Call function to set background images on ready
+      setRightColumnBackgrounds();
     }, 100);
   } );
   Reveal.addEventListener( 'slidechanged', event => {
@@ -16,19 +18,22 @@
     } else {
       document.querySelector('.page-number').innerHTML = '';
     }
+    // Call function to set background images on slide change
+    setRightColumnBackgrounds();
   } );
-</script>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    Reveal.addEventListener('ready', function(event) {
-      // event.currentSlide, event.indexh, event.indexv
-      var rightColumns = document.querySelectorAll('.right-column');
-      rightColumns.forEach(function(element) {
-        var image = element.getAttribute('data-image');
-        if (image) {
-          element.style.backgroundImage = 'url(' + image + ')';
-        }
-      });
+
+  function setRightColumnBackgrounds() {
+    var rightColumns = document.querySelectorAll('.right-column');
+    rightColumns.forEach(function(element) {
+      var image = element.getAttribute('data-image');
+      if (image) {
+        element.style.backgroundImage = 'url(' + image + ')';
+      }
     });
+  }
+
+  // Also call on DOMContentLoaded to catch initial load
+  document.addEventListener('DOMContentLoaded', function() {
+    setRightColumnBackgrounds();
   });
 </script>

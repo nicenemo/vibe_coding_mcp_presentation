@@ -1,6 +1,3 @@
-/* Custom CSS for Vibe Coding MCP Presentation */
-
-/* Header and Footer */
 #header-left, #header-right, #footer-left, #footer-right {
   position: absolute;
   z-index: 10;
@@ -25,8 +22,8 @@
 }
 
 #footer-left a {
-  color: #fff; /* Ensure link color is white */
-  text-decoration: none; /* Remove underline from link */
+  color: #fff;
+  text-decoration: none;
 }
 
 #footer-right {
@@ -35,14 +32,17 @@
 }
 
 #footer-right .page-number {
-  color: #fff; /* Ensure page number is visible */
+  color: #fff;
 }
 
-/* Font sizes */
 .reveal h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px; /* Add margin below title */
+  font-size: 32pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
+  white-space: nowrap; /* Prevent title from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Show ellipsis for overflowing text */
 }
 
 .reveal h2 {
@@ -53,33 +53,68 @@
   font-size: 1.2em;
 }
 
-/* Two-column layout using flexbox */
+.reveal .author {
+  font-size: 18pt;
+}
+
+.reveal .date {
+  font-size: 14pt;
+}
+
 .two-column-layout {
-  display: flex; /* Use flexbox for side-by-side layout */
+  display: flex;
   width: 100%;
-  height: 70vh; /* Make the layout taller */
-  margin-top: 5vh; /* Push content down to make space for title */
-  align-items: flex-start; /* Align items to the top of the flex container */
+  min-height: 65vh;
+  align-items: top;
 }
 
 .left-column, .right-column {
-  flex: 1; /* Distribute space equally */
-  padding: 20px; /* Add some padding */
-  min-height: 100%; /* Ensure columns have a minimum height */
-  overflow-y: auto; /* Add scroll if content overflows */
+  padding: 20px;
+  overflow-y: auto;
 }
 
 .left-column {
-  font-size: 14pt; /* Set font size for left box */
+  flex: 2;
+  font-size: 18pt;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.left-column li {
+  white-space: nowrap; /* Prevent bulleted text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+  list-style-type: disc; /* Explicitly show bullet points */
+  list-style-position: inside; /* Ensure bullets are inside the content box */
 }
 
 .right-column {
+  flex: 1;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
+  overflow:none;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
-/* Adjust slide content area to make space for title */
 .reveal .slides {
-  padding-top: 80px; /* Add padding to the top of the slides container */
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.reveal .slides section,
+.reveal .slides section .two-column-layout {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.reveal {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }

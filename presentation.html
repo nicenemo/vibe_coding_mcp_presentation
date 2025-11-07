@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Hans Kruse">
-  <meta name="dcterms.date" content="2025-11-06">
+  <meta name="dcterms.date" content="2025-11-07">
   <title>Vibe Coding MCP Kali Linux</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -35,9 +35,9 @@
   <link rel="stylesheet" href="custom.css"/>
 </head>
 <body>
-<div id="header-left">vibe coding MCP</div>
-<div id="header-right">Hans Kruse</div>
-<div id="footer-left"><a href="https://github.com/hanskruse/vibe-coding-mcp">vibe-coding-mcp</a></div>
+<div id="footer-left">
+  <a href="https://github.com/hanskruse/vibe-coding-mcp">Vibe Coding MCP<br>Hans Kruse</a>
+</div>
 <div id="footer-right">
   <div class="page-number"></div>
 </div>
@@ -47,7 +47,7 @@
 <section id="title-slide">
   <h1 class="title">Vibe Coding MCP<br>Kali Linux</h1>
   <p class="author">Hans Kruse</p>
-  <p class="date">2025-11-06</p>
+  <p class="date">2025-11-07</p>
 </section>
 
 <section id="introduction" class="slide level1">
@@ -381,6 +381,8 @@ data-image="./images/8_zen_enjoy_kaiseki_cuisine.jpg">
           if (slideNumber > 0) {
             document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
           }
+          // Call function to set background images on ready
+          setRightColumnBackgrounds();
         }, 100);
       } );
       Reveal.addEventListener( 'slidechanged', event => {
@@ -391,20 +393,23 @@ data-image="./images/8_zen_enjoy_kaiseki_cuisine.jpg">
         } else {
           document.querySelector('.page-number').innerHTML = '';
         }
+        // Call function to set background images on slide change
+        setRightColumnBackgrounds();
       } );
-    </script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        Reveal.addEventListener('ready', function(event) {
-          // event.currentSlide, event.indexh, event.indexv
-          var rightColumns = document.querySelectorAll('.right-column');
-          rightColumns.forEach(function(element) {
-            var image = element.getAttribute('data-image');
-            if (image) {
-              element.style.backgroundImage = 'url(' + image + ')';
-            }
-          });
+
+      function setRightColumnBackgrounds() {
+        var rightColumns = document.querySelectorAll('.right-column');
+        rightColumns.forEach(function(element) {
+          var image = element.getAttribute('data-image');
+          if (image) {
+            element.style.backgroundImage = 'url(' + image + ')';
+          }
         });
+      }
+
+      // Also call on DOMContentLoaded to catch initial load
+      document.addEventListener('DOMContentLoaded', function() {
+        setRightColumnBackgrounds();
       });
     </script>
     </body>

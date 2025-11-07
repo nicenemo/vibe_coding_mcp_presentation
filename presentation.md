@@ -1,9 +1,8 @@
 ---
 title: "Vibe Coding MCP<br>Kali Linux"
 author: Hans Kruse
-date: 2025-11-06
+date: 2025-11-07
 ---
-
 ---
 
 # Introduction
