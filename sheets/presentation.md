@@ -3,7 +3,7 @@ title: "Vibe Coding MCP<br>Kali Linux"
 author: Hans Kruse
 date: 2025-11-13
 title-slide-attributes:
-    data-background-image: "images/0_start.jpg"
+    data-background-image: "../images/0_start.jpg"
     data-background-size: "contain"
     data-background-opacity: "0.2"
 ---
@@ -17,7 +17,7 @@ title-slide-attributes:
 * Let AI control security tools
 * Culinairy Vibe Coding Journey
 </div>
-<div class="right-column" data-image="images/1_start_presentation.jpg">
+<div class="right-column" data-image="./../images/1_start_presentation.jpg">
 </div>
 </div>
 
@@ -36,7 +36,7 @@ title-slide-attributes:
 * Don't hack without permission
 * Check generated code
 </div>
-<div class="right-column" data-image="images/1.1_zero_days.jpg">
+<div class="right-column" data-image="./../images/1.1_zero_days.jpg">
 </div>
 </div>
 
@@ -56,7 +56,7 @@ title-slide-attributes:
 * [Model Context Protocol](https://en.wikipedia.org/wiki/Model_Context_Protocol) 
 * MCP November 1994
 </div>
-<div class="right-column" data-image="images/2_zen_ai_training_rag_mcp.jpg">
+<div class="right-column" data-image="./../images/2_zen_ai_training_rag_mcp.jpg">
 </div>
 </div>
 
@@ -71,7 +71,7 @@ title-slide-attributes:
 * [Common Gateway Interface](https://en.wikipedia.org/wiki/Common_Gateway_Interface)
 * CGI 1993
 </div>
-<div class="right-column" data-image="images/3_zen_cgi_bin.jpg">
+<div class="right-column" data-image="./../images/3_zen_cgi_bin.jpg">
 </div>
 </div>
 
@@ -89,7 +89,7 @@ title-slide-attributes:
 * [Spring AI](https://spring.io/projects/spring-ai)
 
 </div>
-<div class="right-column" data-image="images/4_zen_kali_mcp_spring.jpg">
+<div class="right-column" data-image="./../images/4_zen_kali_mcp_spring.jpg">
 </div>
 </div>
 
@@ -111,7 +111,7 @@ title-slide-attributes:
 | Add dig                         |    ✅   |
 | Four more tools                 |    ✅   |
 </div>
-<div class="right-column" data-image="images/5_zen_gemini_mobil_refuse_kali.jpg">
+<div class="right-column" data-image="./../images/5_zen_gemini_mobil_refuse_kali.jpg">
 </div>
 </div>
 
@@ -128,7 +128,7 @@ title-slide-attributes:
 * Checked with Google Gemini team
 
 </div>
-<div class="right-column" data-image="images/stack_our_elbow.jpg">
+<div class="right-column" data-image="./../images/stack_our_elbow.jpg">
 </div>
 </div>
 
@@ -146,7 +146,7 @@ title-slide-attributes:
 * A webservice
 
 </div>
-<div class="right-column" data-image="images/vibe_coded_webservice.png">
+<div class="right-column" data-image="./../images/vibe_coded_webservice.png">
 </div>
 </div>
 
@@ -166,7 +166,7 @@ title-slide-attributes:
 * Non-working oscillations
 
 </div>
-<div class="right-column" data-image="images/6_vibe_coding_out_of_control.jpg">
+<div class="right-column" data-image="./../images/6_vibe_coding_out_of_control.jpg">
 </div>
 </div>
 
@@ -183,7 +183,7 @@ title-slide-attributes:
 * It compiles
 
 </div>
-<div class="right-column" data-image="images/code_deleted.jpg">
+<div class="right-column" data-image="./../images/code_deleted.jpg">
 </div>
 </div>
 
@@ -200,7 +200,7 @@ title-slide-attributes:
 * Feed to LLM as example for fixing
 
 </div>
-<div class="right-column" data-image="images/7_vibe_codig_fix_with_example_project_and_better_food_and_pilot_cap.jpg">
+<div class="right-column" data-image="./../images/7_vibe_codig_fix_with_example_project_and_better_food_and_pilot_cap.jpg">
 </div>
 </div>
 
@@ -217,7 +217,7 @@ title-slide-attributes:
 * A few more
 
 </div>
-<div class="right-column" data-image="images/example_project.png">
+<div class="right-column" data-image="./../images/example_project.png">
 </div>
 </div>
 
@@ -234,7 +234,7 @@ title-slide-attributes:
  * `description`
  * `MCPParameter` annotation
 </div>
-<div class="right-column" data-image="images/fixed_project.png">
+<div class="right-column" data-image="./../images/fixed_project.png">
 </div>
 </div>
 
@@ -251,7 +251,7 @@ title-slide-attributes:
  * Testen zonder LLM
 
 </div>
-<div class="right-column" data-image="images/mcp_inspector.png">
+<div class="right-column" data-image="./../images/mcp_inspector.png">
 </div>
 </div>
 
@@ -266,7 +266,7 @@ title-slide-attributes:
  * LLM only used for natural Language
  * Call tools
 </div>
-<div class="right-column" data-image="images/llm_studio.png">
+<div class="right-column" data-image="./../images/llm_studio.png">
 </div>
 </div>
 
@@ -286,7 +286,7 @@ title-slide-attributes:
   Takes a bit longer.
 
 </div>
-<div class="right-column" data-image="images/8_zen_enjoy_kaiseki_cuisine.jpg">
+<div class="right-column" data-image="./../images/8_zen_enjoy_kaiseki_cuisine.jpg">
 </div>
 </div>
 
@@ -302,6 +302,6 @@ title-slide-attributes:
 * Anything else?
 
 </div>
-<div class="right-column" data-image="images/toxic_spaghetti.jpg">
+<div class="right-column" data-image="./../images/toxic_spaghetti.jpg">
 </div>
 </div>

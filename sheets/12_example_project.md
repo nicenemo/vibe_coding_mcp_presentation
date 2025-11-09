@@ -9,6 +9,6 @@
 * A few more
 
 </div>
-<div class="right-column" data-image="./images/example_project.png">
+<div class="right-column" data-image="./../images/example_project.png">
 </div>
 </div>

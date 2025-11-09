@@ -12,6 +12,6 @@
   Takes a bit longer.
 
 </div>
-<div class="right-column" data-image="./images/8_zen_enjoy_kaiseki_cuisine.jpg">
+<div class="right-column" data-image="./../images/8_zen_enjoy_kaiseki_cuisine.jpg">
 </div>
 </div>

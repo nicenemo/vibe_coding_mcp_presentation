@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the path to the presentation HTML file
-PRESENTATION_HTML="/home/kruse/Projects/vibe_coding_mcp_presentation/presentation.html"
+PRESENTATION_HTML="/home/kruse/Projects/vibe_coding_mcp_presentation/index.html"
 
 # Perform replacements for Reveal.js CSS files
 sed -i 's|https://unpkg.com/reveal.js@^4//dist/reset.css|reveal.js-4.6.1/dist/reset.css|g' "$PRESENTATION_HTML"

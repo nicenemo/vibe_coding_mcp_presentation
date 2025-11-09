@@ -9,6 +9,6 @@
  * `description`
  * `MCPParameter` annotation
 </div>
-<div class="right-column" data-image="./images/fixed_project.png">
+<div class="right-column" data-image="./../images/fixed_project.png">
 </div>
 </div>

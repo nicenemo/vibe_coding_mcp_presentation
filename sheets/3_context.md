@@ -12,6 +12,6 @@
 * [Model Context Protocol](https://en.wikipedia.org/wiki/Model_Context_Protocol) 
 * MCP November 1994
 </div>
-<div class="right-column" data-image="./images/2_zen_ai_training_rag_mcp.jpg">
+<div class="right-column" data-image="./../images/2_zen_ai_training_rag_mcp.jpg">
 </div>
 </div>

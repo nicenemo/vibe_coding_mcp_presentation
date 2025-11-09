@@ -14,6 +14,6 @@
 | Add dig                         |    ✅   |
 | Four more tools                 |    ✅   |
 </div>
-<div class="right-column" data-image="./images/5_zen_gemini_mobil_refuse_kali.jpg">
+<div class="right-column" data-image="./../images/5_zen_gemini_mobil_refuse_kali.jpg">
 </div>
 </div>

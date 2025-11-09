@@ -8,6 +8,6 @@
 * Anything else?
 
 </div>
-<div class="right-column" data-image="./images/toxic_spaghetti.jpg">
+<div class="right-column" data-image="./../images/toxic_spaghetti.jpg">
 </div>
 </div>

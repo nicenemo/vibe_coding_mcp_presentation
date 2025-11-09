@@ -11,6 +11,6 @@
 * Don't hack without permission
 * Check generated code
 </div>
-<div class="right-column" data-image="./images/1.1_zero_days.jpg">
+<div class="right-column" data-image="./../images/1.1_zero_days.jpg">
 </div>
 </div>

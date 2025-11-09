@@ -9,6 +9,6 @@
 * Checked with Google Gemini team
 
 </div>
-<div class="right-column" data-image="./images/stack_our_elbow.jpg">
+<div class="right-column" data-image="./../images/stack_our_elbow.jpg">
 </div>
 </div>

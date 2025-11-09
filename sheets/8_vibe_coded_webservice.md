@@ -10,6 +10,6 @@
 * A webservice
 
 </div>
-<div class="right-column" data-image="./images/vibe_coded_webservice.png">
+<div class="right-column" data-image="./../images/vibe_coded_webservice.png">
 </div>
 </div>

@@ -9,6 +9,6 @@
 * It compiles
 
 </div>
-<div class="right-column" data-image="./images/code_deleted.jpg">
+<div class="right-column" data-image="./../images/code_deleted.jpg">
 </div>
 </div>

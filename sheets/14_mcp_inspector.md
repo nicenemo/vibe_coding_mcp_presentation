@@ -9,6 +9,6 @@
  * Testen zonder LLM
 
 </div>
-<div class="right-column" data-image="./images/mcp_inspector.png">
+<div class="right-column" data-image="./../images/mcp_inspector.png">
 </div>
 </div>

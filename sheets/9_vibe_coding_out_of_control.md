@@ -12,6 +12,6 @@
 * Non-working oscillations
 
 </div>
-<div class="right-column" data-image="./images/6_vibe_coding_out_of_control.jpg">
+<div class="right-column" data-image="./../images/6_vibe_coding_out_of_control.jpg">
 </div>
 </div>
