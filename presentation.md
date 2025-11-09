@@ -6,6 +6,7 @@ title-slide-attributes:
     data-background-image: "images/0_start.jpg"
     data-background-size: "contain"
     data-background-opacity: "0.2"
+    data-state: "no-footer"
 ---
 ---
 
