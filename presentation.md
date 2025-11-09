@@ -2,10 +2,10 @@
 title: "Vibe Coding MCP<br>Kali Linux"
 author: Hans Kruse
 date: 2025-11-13
-slide-attributes:
-  data-background-image: "./images/0_start.jpg"
-  data-background-size: "contain"
-  data-background-opacity: "0.5"
+title-slide-attributes:
+    data-background-image: "images/0_start.jpg"
+    data-background-size: "contain"
+    data-background-opacity: "0.2"
 ---
 ---
 
@@ -100,17 +100,16 @@ slide-attributes:
 <div class="two-column-layout">
 <div class="left-column">
 
-| Tried with Gemini                | Success   |
-| -------------------------------- | :-------: |
-| Kali Linux                       |     ❌    |
-| NMap on Debian                   |     ❌    |
-| Echo service                     |     ✅    |
-| Replace Echo service with NMap   |     ✅    |
-| Replace Debian with Kali         |     ✅    |
-| Add Whois                        |     ✅    |
-| Add Dig                          |     ✅    |
-| Four more tools                  |     ✅    |
-
+| Gemini task                     | Succes |
+| ------------------------------- | :----: |
+| Kali Linux                      |   ❌   |
+| NMap on Debian                  |   ❌   |
+| Echo service                    |   ✅   |
+| Replace Echo service with NMap  |   ✅   |
+| Replace Debian with Kali        |   ✅   |
+| Add Whois                       |   ✅   |
+| Add dig                         |   ✅   |
+| Four more tools                 |   ✅   |
 </div>
 <div class="right-column" data-image="./images/5_zen_gemini_mobil_refuse_kali.jpg">
 </div>
