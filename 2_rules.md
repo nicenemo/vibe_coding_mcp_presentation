@@ -5,7 +5,7 @@
 * Hobby project
 * My Own time
 * My Own Hardware
-* My Own or contracted LLMs
+* Local or contracted LLMs
 * Check company policies
 * Don't install tools without permission
 * Don't hack without permission

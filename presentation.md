@@ -30,7 +30,7 @@ title-slide-attributes:
 * Hobby project
 * My Own time
 * My Own Hardware
-* My Own or contracted LLMs
+* Local or contracted LLMs
 * Check company policies
 * Don't install tools without permission
 * Don't hack without permission
@@ -197,14 +197,76 @@ title-slide-attributes:
 * Read documentation
 * Watch a tutorial video
 * Generate a sample project
- * Echo
- * Current time
- * Rot 13
- * More simple services
 * Feed to LLM as example for fixing
 
 </div>
 <div class="right-column" data-image="./images/7_vibe_codig_fix_with_example_project_and_better_food_and_pilot_cap.jpg">
+</div>
+</div>
+
+---
+
+# Example project
+
+<div class="two-column-layout">
+<div class="left-column">
+
+* Hello, World
+* Current time
+* Rot 13
+* A few more
+
+</div>
+<div class="right-column" data-image="./images/example_project.png">
+</div>
+</div>
+
+---
+
+# Fixed Project
+
+<div class="two-column-layout">
+<div class="left-column">
+
+ * Not to different from a controller
+ * `MCPTool` annotation
+ * `name`
+ * `description`
+ * `MCPParameter` annotation
+</div>
+<div class="right-column" data-image="./images/fixed_project.png">
+</div>
+</div>
+
+---
+
+# MCP Inspector
+
+<div class="two-column-layout">
+<div class="left-column">
+
+ * `npx @modelcontextprotocol/inspector`
+ * Swagger achtige web interface
+ * Maar dan voor MCP
+ * Testen zonder LLM
+
+</div>
+<div class="right-column" data-image="./images/mcp_inspector.png">
+</div>
+</div>
+
+---
+
+# LLM Studio
+
+<div class="two-column-layout">
+<div class="left-column">
+
+ * Used with Local LLM
+ * LLM only used for natural Language
+ * Call tools
+</div>
+<div class="right-column" data-image="./images/llm_studio.png">
 </div>
 </div>
 

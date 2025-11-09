@@ -6,10 +6,6 @@
 * Read documentation
 * Watch a tutorial video
 * Generate a sample project
- * Echo
- * Current time
- * Rot 13
- * More simple services
 * Feed to LLM as example for fixing
 
 </div>
