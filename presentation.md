@@ -1,7 +1,11 @@
 ---
 title: "Vibe Coding MCP<br>Kali Linux"
 author: Hans Kruse
-date: 2025-11-07
+date: 2025-11-13
+slide-attributes:
+  data-background-image: "./images/0_start.jpg"
+  data-background-size: "contain"
+  data-background-opacity: "0.5"
 ---
 ---
 
@@ -91,18 +95,21 @@ date: 2025-11-07
 
 ---
 
-# Vibe Coding in Action
+# Vibe Coding MCP
 
 <div class="two-column-layout">
 <div class="left-column">
 
-* A Live Demo
-* Vibe Coding a Security Scan
-* Exposing Nmap via MCP
-* Using Spring Boot to Create the API
-* Using Spring AI to Generate the Code
-* A Simple and Powerful Workflow
-* The Future of Security Automation
+| Tried with Gemini                | Success   |
+| -------------------------------- | :-------: |
+| Kali Linux                       |     ❌    |
+| NMap on Debian                   |     ❌    |
+| Echo service                     |     ✅    |
+| Replace Echo service with NMap   |     ✅    |
+| Replace Debian with Kali         |     ✅    |
+| Add Whois                        |     ✅    |
+| Add Dig                          |     ✅    |
+| Four more tools                  |     ✅    |
 
 </div>
 <div class="right-column" data-image="./images/5_zen_gemini_mobil_refuse_kali.jpg">
