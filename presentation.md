@@ -9,15 +9,9 @@ date: 2025-11-07
 
 <div class="two-column-layout">
 <div class="left-column">
-
-* Vibe Coding: A New Paradigm
-* Exposing Kali Linux Security Tools
-* The Model Context Protocol (MCP)
-* Spring Boot and Spring AI
-* A Powerful Combination for Security
-* Automating Security with AI
-* The Future of DevSecOps
-
+* OWASP Global Appsec
+* Let AI control security tools
+* Culinairy Vibe Coding Journey
 </div>
 <div class="right-column" data-image="./images/1_start_presentation.jpg">
 </div>
@@ -25,19 +19,38 @@ date: 2025-11-07
 
 ---
 
-# The Zen of AI-Powered Security
+# Rules
 
 <div class="two-column-layout">
 <div class="left-column">
+* Hobby project
+* My Own time
+* My Own Hardware
+* My Own or contracted LLMs
+* Check company policies
+* Don't install tools without permission
+* Don't hack without permission
+* Check generated code
+</div>
+<div class="right-column" data-image="./images/1.1_zero_days.jpg">
+</div>
+</div>
 
-* Simplicity and Focus in Security
-* Training AI for Security Tasks
-* Retrieval-Augmented Generation (RAG) for Security
-* The Model Context Protocol (MCP) for Security
-* A New Paradigm for Security Automation
-* The Path to Enlightened Security
-* Vibe Coding for Secure by Design
+---
 
+# Context
+
+<div class="two-column-layout">
+<div class="left-column">
+* LLM lossy copy of the internet
+* cut-off date
+* context
+* Train your own model
+* Tune an existing model
+* Retrieval Augmented Generation(RAG)
+* Agents
+* [Model Context Protocol](https://en.wikipedia.org/wiki/Model_Context_Protocol) 
+* MCP November 1994
 </div>
 <div class="right-column" data-image="./images/2_zen_ai_training_rag_mcp.jpg">
 </div>
@@ -45,19 +58,14 @@ date: 2025-11-07
 
 ---
 
-# Exposing Kali Linux Tools via MCP
+# Reminds me of..   
 
 <div class="two-column-layout">
 <div class="left-column">
-
-* The Power of Kali Linux
-* The Model Context Protocol (MCP)
-* A Simple Interface for Complex Tools
-* Vibe Coding with Kali Tools
-* Generating Security Scans with AI
-* A Minimalist Approach to Security APIs
-* The Beauty of a Simple, Focused Design
-
+* Web services
+* Micro services
+* [Common GateWay Interface](https://en.wikipedia.org/wiki/Common_Gateway_Interface)
+* CGI 1993
 </div>
 <div class="right-column" data-image="./images/3_zen_cgi_bin.jpg">
 </div>
@@ -65,18 +73,16 @@ date: 2025-11-07
 
 ---
 
-# Spring Boot and Spring AI for Security
+# Spring AI and LangChain4J
 
 <div class="two-column-layout">
 <div class="left-column">
 
-* The Power of Spring Boot
-* Spring AI: The Future of AI in Java
-* Vibe Coding a Secure Spring Application
-* Integrating Kali Tools with Spring
-* A Secure and Robust Combination
-* Automating Security with Spring AI
-* The Future of DevSecOps with Spring
+* Python sample code
+* I want it in Java
+* Apeldoorn JUG, JFall
+* [LangChain4J](https://docs.langchain4j.dev/intro) 
+* [Spring AI](https://spring.io/projects/spring-ai)
 
 </div>
 <div class="right-column" data-image="./images/4_zen_kali_mcp_spring.jpg">
