@@ -283,67 +283,19 @@ data-image="images/7_vibe_codig_fix_with_example_project_and_better_food_and_pil
 </section>
 <section id="example-project" class="slide level1">
 <h1>Example project</h1>
-<div class="two-column-layout">
-<div class="left-column">
-<ul>
-<li>Hello, World</li>
-<li>Current time</li>
-<li>Rot 13</li>
-<li>A few more</li>
-</ul>
-</div>
-<div class="right-column" data-image="images/example_project.png">
-
-</div>
-</div>
+<p><img src="images/example_project.png" style="width: 100%; height: auto;"></p>
 </section>
 <section id="fixed-project" class="slide level1">
 <h1>Fixed Project</h1>
-<div class="two-column-layout">
-<div class="left-column">
-<ul>
-<li>Not to different from a controller</li>
-<li><code>MCPTool</code> annotation</li>
-<li><code>name</code></li>
-<li><code>description</code></li>
-<li><code>MCPParameter</code> annotation</li>
-</ul>
-</div>
-<div class="right-column" data-image="images/fixed_project.png">
-
-</div>
-</div>
+<p><img src="images/fixed_project.png" style="width: 100%; height: auto;"></p>
 </section>
 <section id="mcp-inspector" class="slide level1">
 <h1>MCP Inspector</h1>
-<div class="two-column-layout">
-<div class="left-column">
-<ul>
-<li><code>npx @modelcontextprotocol/inspector</code></li>
-<li>Swagger achtige web interface</li>
-<li>Maar dan voor MCP</li>
-<li>Testen zonder LLM</li>
-</ul>
-</div>
-<div class="right-column" data-image="images/mcp_inspector.png">
-
-</div>
-</div>
+<p><img src="images/mcp_inspector.png" style="width: 100%; height: auto;"></p>
 </section>
 <section id="llm-studio" class="slide level1">
 <h1>LLM Studio</h1>
-<div class="two-column-layout">
-<div class="left-column">
-<ul>
-<li>Used with Local LLM</li>
-<li>LLM only used for natural Language</li>
-<li>Call tools</li>
-</ul>
-</div>
-<div class="right-column" data-image="images/llm_studio.png">
-
-</div>
-</div>
+<p><img src="images/llm_studio.png" style="width: 100%; height: auto;"></p>
 </section>
 <section id="conclusion" class="slide level1">
 <h1>Conclusion</h1>
@@ -543,43 +495,5 @@ data-image="images/8_zen_enjoy_kaiseki_cuisine.jpg">
       });
     </script>
     <script>
-      Reveal.addEventListener( 'ready', event => {
-        setTimeout(() => {
-          const slideNumber = event.indexh;
-          const totalSlides = Reveal.getTotalSlides() - 1;
-          if (slideNumber > 0) {
-            document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
-          }
-          // Call function to set background images on ready
-          setRightColumnBackgrounds();
-        }, 100);
-      } );
-      Reveal.addEventListener( 'slidechanged', event => {
-        const slideNumber = event.indexh;
-        const totalSlides = Reveal.getTotalSlides() - 1;
-        if (slideNumber > 0) {
-          document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
-        } else {
-          document.querySelector('.page-number').innerHTML = '';
-        }
-        // Call function to set background images on slide change
-        setRightColumnBackgrounds();
-      } );
-
-      function setRightColumnBackgrounds() {
-        var rightColumns = document.querySelectorAll('.right-column');
-        rightColumns.forEach(function(element) {
-          var image = element.getAttribute('data-image');
-          if (image) {
-            element.style.backgroundImage = 'url(' + image + ')';
-          }
-        });
-      }
-
-      // Also call on DOMContentLoaded to catch initial load
-      document.addEventListener('DOMContentLoaded', function() {
-        setRightColumnBackgrounds();
-      });
-    </script>
     </body>
 </html>

@@ -208,67 +208,25 @@ title-slide-attributes:
 
 # Example project
 
-<div class="two-column-layout">
-<div class="left-column">
-
-* Hello, World
-* Current time
-* Rot 13
-* A few more
-
-</div>
-<div class="right-column" data-image="images/example_project.png">
-</div>
-</div>
+<img src="images/example_project.png" style="width: 100%; height: auto;">
 
 ---
 
 # Fixed Project
 
-<div class="two-column-layout">
-<div class="left-column">
-
- * Not to different from a controller
- * `MCPTool` annotation
- * `name`
- * `description`
- * `MCPParameter` annotation
-</div>
-<div class="right-column" data-image="images/fixed_project.png">
-</div>
-</div>
+<img src="images/fixed_project.png" style="width: 100%; height: auto;">
 
 ---
 
 # MCP Inspector
 
-<div class="two-column-layout">
-<div class="left-column">
-
- * `npx @modelcontextprotocol/inspector`
- * Swagger achtige web interface
- * Maar dan voor MCP
- * Testen zonder LLM
-
-</div>
-<div class="right-column" data-image="images/mcp_inspector.png">
-</div>
-</div>
+<img src="images/mcp_inspector.png" style="width: 100%; height: auto;">
 
 ---
 
 # LLM Studio
 
-<div class="two-column-layout">
-<div class="left-column">
-
- * Used with Local LLM
- * LLM only used for natural Language
- * Call tools
-</div>
-<div class="right-column" data-image="images/llm_studio.png">
-</div>
-</div>
+<img src="images/llm_studio.png" style="width: 100%; height: auto;">
 
 ---
 
