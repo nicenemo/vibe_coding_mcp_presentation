@@ -214,20 +214,9 @@ data-image="images/5_zen_gemini_mobil_refuse_kali.jpg">
 </section>
 <section id="a-webservice" class="slide level1">
 <h1>A webservice !?!</h1>
-<div class="two-column-layout">
-<div class="left-column">
-<ul>
-<li>Manual cleanup</li>
-<li>Refactored the code with gemini-cli</li>
-<li>A working solution</li>
-<li>Not MCP compliant</li>
-<li>A webservice</li>
-</ul>
-</div>
-<div class="right-column" data-image="images/vibe_coded_webservice.png">
-
-</div>
-</div>
+<p>
+<img src="images/vibe_coded_webservice.png" style="width: 100%; height: auto;">
+</p>
 </section>
 <section id="the-vibe-is-on" class="slide level1">
 <h1>The Vibe is on</h1>
@@ -495,5 +484,43 @@ data-image="images/8_zen_enjoy_kaiseki_cuisine.jpg">
       });
     </script>
     <script>
+      Reveal.addEventListener( 'ready', event => {
+        setTimeout(() => {
+          const slideNumber = event.indexh;
+          const totalSlides = Reveal.getTotalSlides() - 1;
+          if (slideNumber > 0) {
+            document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
+          }
+          // Call function to set background images on ready
+          setRightColumnBackgrounds();
+        }, 100);
+      } );
+      Reveal.addEventListener( 'slidechanged', event => {
+        const slideNumber = event.indexh;
+        const totalSlides = Reveal.getTotalSlides() - 1;
+        if (slideNumber > 0) {
+          document.querySelector('.page-number').innerHTML = `${slideNumber} / ${totalSlides}`;
+        } else {
+          document.querySelector('.page-number').innerHTML = '';
+        }
+        // Call function to set background images on slide change
+        setRightColumnBackgrounds();
+      } );
+
+      function setRightColumnBackgrounds() {
+        var rightColumns = document.querySelectorAll('.right-column');
+        rightColumns.forEach(function(element) {
+          var image = element.getAttribute('data-image');
+          if (image) {
+            element.style.backgroundImage = 'url(' + image + ')';
+          }
+        });
+      }
+
+      // Also call on DOMContentLoaded to catch initial load
+      document.addEventListener('DOMContentLoaded', function() {
+        setRightColumnBackgrounds();
+      });
+    </script>
     </body>
 </html>
