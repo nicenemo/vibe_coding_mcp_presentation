@@ -68,7 +68,7 @@ title-slide-attributes:
 <div class="left-column">
 * Web services
 * Micro services
-* [Common GateWay Interface](https://en.wikipedia.org/wiki/Common_Gateway_Interface)
+* [Common Gateway Interface](https://en.wikipedia.org/wiki/Common_Gateway_Interface)
 * CGI 1993
 </div>
 <div class="right-column" data-image="./images/3_zen_cgi_bin.jpg">
@@ -117,18 +117,53 @@ title-slide-attributes:
 
 ---
 
-# Challenges and Limitations
+# Due dillegence
 
 <div class="two-column-layout">
 <div class="left-column">
 
-* The Dangers of AI-Generated Code
-* The Need for Human Oversight
-* Security and a Large Language Model
-* The Hallucination Problem
-* Keeping up with the latest security tools
-* The Importance of a Good Prompt
-* The Future of AI in Security
+* Checked Google bug bountry program
+* It almost works
+* When you start from Echo?
+* Checked with Google Gemini team
+
+</div>
+<div class="right-column" data-image="./images/stack_our_elbow.jpg">
+</div>
+</div>
+
+---
+
+# A webservice !?!
+
+<div class="two-column-layout">
+<div class="left-column">
+
+* Manual cleanup
+* Refactored the code with gemini-cli
+* A working solution
+* Not MCP compliant
+* A webservice
+
+</div>
+<div class="right-column" data-image="./images/vibe_coded_webservice.png">
+</div>
+</div>
+
+---
+
+#  The Vibe is on
+
+<div class="two-column-layout">
+<div class="left-column">
+
+* 3 Saturdays of prompting
+* Spring-AI
+* Spring-AI Milestone releases
+* Langchain 4J 
+* Convert code to Kotlin
+* Try Koog
+* Non-working oscillations
 
 </div>
 <div class="right-column" data-image="./images/6_vibe_coding_out_of_control.jpg">
@@ -137,18 +172,36 @@ title-slide-attributes:
 
 ---
 
-# Best Practices
+# Code deleted
 
 <div class="two-column-layout">
 <div class="left-column">
 
-* The Human-AI Partnership
-* The Importance of a Good Example Project
-* How Better Food Fuels Better Code
-* The Pilot's Cap: A Symbol of Control
-* A Case Study: Fixing a Vibe-Coded Project
-* The Importance of Testing
-* Achieving Vibe Coding Nirvana
+* My LinkedIn:
+  Deleted code is ok 
+* Why did you delete the code?
+* It compiles
+
+</div>
+<div class="right-column" data-image="./images/code_deleted.jpg">
+</div>
+</div>
+
+---
+
+# Human Intervention
+
+<div class="two-column-layout">
+<div class="left-column">
+
+* Read documentation
+* Watch a tutorial video
+* Generate a sample project
+ * Echo
+ * Current time
+ * Rot 13
+ * More simple services
+* Feed to LLM as example for fixing
 
 </div>
 <div class="right-column" data-image="./images/7_vibe_codig_fix_with_example_project_and_better_food_and_pilot_cap.jpg">
@@ -162,15 +215,31 @@ title-slide-attributes:
 <div class="two-column-layout">
 <div class="left-column">
 
-* The Future of AI-Powered Security
-* Vibe Coding: A Powerful Tool for DevSecOps
-* The Model Context Protocol: A New Standard
-* Spring Boot and Spring AI: A Winning Combination
-* The Importance of Human Oversight
-* The Art of Vibe Coding
-* Questions and Answers
+* LLM and cutting edge are <br/>
+  No friends
+* Point LLM to documentation
+* Point LLM to example project
+* MCP POC is easy to do
+* Exposing all options of something like NMAP <br/>
+  Takes a bit longer.
 
 </div>
 <div class="right-column" data-image="./images/8_zen_enjoy_kaiseki_cuisine.jpg">
+</div>
+</div>
+
+---
+
+# Questions
+
+<div class="two-column-layout">
+<div class="left-column">
+
+* Questions?
+* Remarks?
+* Anything else?
+
+</div>
+<div class="right-column" data-image="./images/toxic_spaghetti.jpg">
 </div>
 </div>
