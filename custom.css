@@ -125,3 +125,8 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+.reveal.has-no-footer #footer-left,
+.reveal.has-no-footer #footer-right {
+  display: none;
+}
