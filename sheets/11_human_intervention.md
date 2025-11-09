@@ -5,7 +5,7 @@
 
 * Read documentation
 * Watch a tutorial video
-* Generate a sample project
+* Write a sample project
 * Feed to LLM as example for fixing
 
 </div>
