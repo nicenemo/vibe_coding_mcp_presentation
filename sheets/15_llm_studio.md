@@ -1,3 +1,3 @@
 # LLM Studio
 
-<img src="images/llm_studio.png" style="width: 100%; height: auto;">
+<div class="single-image-slide" style="background-image: url(images/llm_studio.png);"></div>

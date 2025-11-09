@@ -136,7 +136,7 @@ title-slide-attributes:
 
 # A webservice !?!
 
-<p><img src="images/vibe_coded_webservice.png" style="width: 100%; height: auto;"></p>
+<div class="single-image-slide" style="background-image: url(images/vibe_coded_webservice.png);"></div>
 
 ---
 
@@ -196,25 +196,25 @@ title-slide-attributes:
 
 # Example project
 
-<img src="images/example_project.png" style="width: 100%; height: auto;">
+<div class="single-image-slide" style="background-image: url(images/example_project.png);"></div>
 
 ---
 
 # Fixed Project
 
-<img src="images/fixed_project.png" style="width: 100%; height: auto;">
+<div class="single-image-slide" style="background-image: url(images/fixed_project.png);"></div>
 
 ---
 
 # MCP Inspector
 
-<img src="images/mcp_inspector.png" style="width: 100%; height: auto;">
+<div class="single-image-slide" style="background-image: url(images/mcp_inspector.png);"></div>
 
 ---
 
 # LLM Studio
 
-<img src="images/llm_studio.png" style="width: 100%; height: auto;">
+<div class="single-image-slide" style="background-image: url(images/llm_studio.png);"></div>
 
 ---
 

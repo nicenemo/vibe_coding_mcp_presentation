@@ -1,3 +1,3 @@
 # A webservice !?!
 
-<p><img src="./../images/vibe_coded_webservice.png" style="width: 100%; height: auto;"></p>
+<div class="single-image-slide" style="background-image: url(./../images/vibe_coded_webservice.png);"></div>

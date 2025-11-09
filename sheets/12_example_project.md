@@ -1,3 +1,3 @@
 # Example project
 
-<img src="images/example_project.png" style="width: 100%; height: auto;">
+<div class="single-image-slide" style="background-image: url(images/example_project.png);"></div>
