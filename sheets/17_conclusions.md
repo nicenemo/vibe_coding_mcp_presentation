@@ -5,11 +5,11 @@
 
 * LLM and cutting edge are <br/>
   No friends
-* Point LLM to documentation
-* Point LLM to example project
-* MCP POC is easy to do
-* Exposing all options of something like NMAP <br/>
-  Takes a bit longer.
+* Use documentation and sample code
+* POC is easy
+* All tools with all options is not
+* existing webservice into MCP is easy
+* More context needed
 
 </div>
 <div class="right-column" data-image="./../images/8_zen_enjoy_kaiseki_cuisine.jpg">

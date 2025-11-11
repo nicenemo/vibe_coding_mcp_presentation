@@ -1,10 +1,10 @@
-# Spring AI and LangChain4J
+# No Snakes but Coffee
 
 <div class="two-column-layout">
 <div class="left-column">
 
-* Python sample code
-* I want it in Java
+* Java instead of Python
+* easier to apply to my work
 * Apeldoorn JUG, JFall
 * [LangChain4J](https://docs.langchain4j.dev/intro) 
 * [Spring AI](https://spring.io/projects/spring-ai)

@@ -24,7 +24,7 @@ title-slide-attributes:
 
 ---
 
-# Rules
+# Preflight check
 
 <div class="two-column-layout">
 <div class="left-column">
@@ -47,15 +47,14 @@ title-slide-attributes:
 
 <div class="two-column-layout">
 <div class="left-column">
+* [Model Context Protocol](https://en.wikipedia.org/wiki/Model_Context_Protocol) 
+* MCP November 2024
 * LLM lossy copy of the internet
 * cut-off date
-* context
 * Train your own model
 * Tune an existing model
 * Retrieval Augmented Generation(RAG)
 * Agents
-* [Model Context Protocol](https://en.wikipedia.org/wiki/Model_Context_Protocol) 
-* MCP November 2024
 </div>
 <div class="right-column" data-image="images/2_zen_ai_training_rag_mcp.jpg">
 </div>
@@ -78,13 +77,13 @@ title-slide-attributes:
 
 ---
 
-# Spring AI and LangChain4J
+# No Snakes but Coffee
 
 <div class="two-column-layout">
 <div class="left-column">
 
-* Python sample code
-* I want it in Java
+* Java instead of Python
+* easier to apply to my work
 * Apeldoorn JUG, JFall
 * [LangChain4J](https://docs.langchain4j.dev/intro) 
 * [Spring AI](https://spring.io/projects/spring-ai)
@@ -135,6 +134,25 @@ title-slide-attributes:
 
 ---
 
+# Refactoring
+
+<div class="two-column-layout">
+<div class="left-column">
+
+* Manual adjustment
+* LLM refactorings
+* No duplications
+* Code style
+* Command pattern
+* Secure code
+
+</div>
+<div class="right-column" data-image="images/refactoring.jpg">
+</div>
+</div>
+
+---
+
 # A webservice !?!
 
 <div class="single-image-slide" style="background-image: url(images/vibe_coded_webservice.png);"></div>
@@ -161,13 +179,12 @@ title-slide-attributes:
 
 ---
 
-# Code deleted
+# Bad vibes
 
 <div class="two-column-layout">
 <div class="left-column">
 
-* My LinkedIn:
-  Deleted code is ok 
+* Gemini deleted all relevant code!
 * Why did you delete the code?
 * It compiles
 
@@ -226,11 +243,11 @@ title-slide-attributes:
 
 * LLM and cutting edge are <br/>
   No friends
-* Point LLM to documentation
-* Point LLM to example project
-* MCP POC is easy to do
-* Exposing all options of something like NMAP <br/>
-  Takes a bit longer.
+* Use documentation and sample code
+* POC is easy
+* All tools with all options is not
+* existing webservice into MCP is easy
+* More context needed
 
 </div>
 <div class="right-column" data-image="images/8_zen_enjoy_kaiseki_cuisine.jpg">

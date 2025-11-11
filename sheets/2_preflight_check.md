@@ -1,4 +1,4 @@
-# Rules
+# Preflight check
 
 <div class="two-column-layout">
 <div class="left-column">

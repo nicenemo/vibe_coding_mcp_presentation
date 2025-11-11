@@ -1,10 +1,9 @@
-# Code deleted
+# Bad vibes
 
 <div class="two-column-layout">
 <div class="left-column">
 
-* My LinkedIn:
-  Deleted code is ok 
+* Gemini deleted all relevant code!
 * Why did you delete the code?
 * It compiles
 
