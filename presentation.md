@@ -241,9 +241,8 @@ title-slide-attributes:
 <div class="two-column-layout">
 <div class="left-column">
 
-* LLM and cutting edge are <br/>
-  No friends
-* Use documentation and sample code
+* LLM & cutting edg, a no
+* documentation & sample code
 * POC is easy
 * All tools with all options is not
 * existing webservice into MCP is easy
